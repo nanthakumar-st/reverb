@@ -3,7 +3,7 @@
         <div class="flex border">
             <input type="text" wire:model="todo" placeholder="Enter text" class="flex-grow px-4 py-2" />
             <button type="submit" class="px-4 py-2 bg-blue-500 text-white hover:bg-blue-600">
-                Search
+                Submit
             </button>
         </div>
         @error('todo') <span class="text-red-500 text-sm mt-2 block">{{ $message }}</span> @enderror 
